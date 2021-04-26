@@ -5,7 +5,7 @@ pool:
     vmImage: 'ubuntu-16.04' 
 
 variables:
-    imageName: 'https://github.com/medrim/aqua-scan-test'
+    imageName: 'aqua-scan-test'
 
 steps:
 - task: Docker@2
